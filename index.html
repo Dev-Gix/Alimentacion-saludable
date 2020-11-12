@@ -4,32 +4,39 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <script src="https://kit.fontawesome.com/1a2318b2e3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    
     <title>Alimentación</title>
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <img src="img/Logo.jpg" alt="Logo" />
-        </div>
-        <!--Logo-->
-
-
-        <div class="barra">
-            <nav>
-                <a href="#">Recetas</a>
-                <a href="#">Contacto</a>
-            </nav>
-        </div>
+        
+            <div class="logo centrar-contenido">
+                <img src="img/Logo.jpg" alt="Logo" />
+            </div>
+            <!--Logo-->
+        
+        
+            <div class="barra">
+                <nav class="navegacion">
+                    <a href="#">Recetas</a>
+                    <a href="#">Contacto</a>
+                </nav>
+            </div>
+       
         <!--Barra-->
 
     </header><!--Header-->
 
     <main>
-        <h1>Alimentación saludable</h1>
-        <section>
-            <h2>¿QUÉ SE ENTIENDE POR ALIMENTACIÓN SALUDABLE?</h2>
+        <div class="contenedor">
+        <h1 class="centrar-contenido">Alimentación saludable</h1>
+
+        <section class="Explicacion-Alimentacion clearfix">
+            <h2><i class="fas fa-apple-alt"></i> ¿QUÉ SE ENTIENDE POR ALIMENTACIÓN SALUDABLE?</h2>
 
             <img src="img/ComidaSaludable.jpg" alt="Comidas-Saludables">
 
@@ -55,22 +62,24 @@
                 alta graduación.</p>
         </section><!--Seccion-->
 
-        <section>
-            <h2>¿QUÉ CARACTERÍSTICAS DEBE DE TENER UNA ALIMENTACIÓN SALUDABLE?</h2>
+        <section class="Caracteristicas-Saludables clearfix">
+            <h2><i class="fas fa-apple-alt"></i> ¿QUÉ CARACTERÍSTICAS DEBE DE TENER UNA ALIMENTACIÓN SALUDABLE?</h2>
+           <div class="info-caracteristicasSaludables">
             <img src="img/CaracteristicaAlimentacionSalu.jpg" alt="Comidas-Caracteristicas">
             <p>Los alimentos se agrupan en función de su composición mayoritaria en nutrientes, reflejada en las tablas
                 de composición de los alimentos, que son muy utilizadas para planificar la dieta. Otra forma de
                 clasificarlos se basa en la utilización o rentabilidad que el organismo obtiene de cada uno de los
-                nutrientes contenido en un alimento determinado.</p>
-            <p>Ciertos nutrientes, como el hierro y el calcio, por ejemplo, se encuentran muy repartidos en alimentos
+                nutrientes contenido en un alimento determinado.
+                Ciertos nutrientes, como el hierro y el calcio, por ejemplo, se encuentran muy repartidos en alimentos
                 como legumbres y verduras; sin embargo el organismo no los aprovecha tan óptimamente como cuando
-                proceden de la carne y derivados y de la leche, respectivamente.</p>
-            <p>Básicamente, los alimentos se agrupan en los siguientes grupos: energéticos, que incluyen los hidratos de
+                proceden de la carne y derivados y de la leche, respectivamente.
+                Básicamente, los alimentos se agrupan en los siguientes grupos: energéticos, que incluyen los hidratos de
                 carbono (CHO) y las grasas; plásticos (proteínas), que intervienen como constructores; y reguladores
-                (vitaminas y minerales).</p>
-            <p>Puedes ver esta clasificación en la tabla 1; la tabla 2 muestra los nutrientes que aportan los distintos
+                (vitaminas y minerales).
+                Puedes ver esta clasificación en la tabla 1; la tabla 2 muestra los nutrientes que aportan los distintos
                 alimentos.</p>
-
+            </div><!--info-caracteristicasSaludables-->
+            <div class="tablas-clasificacion-comida ">
                 <h3>Tabla 1</h3>
                 <table>
                     <tr>
@@ -118,11 +127,11 @@
                         <td>CHO.</td>
                     </tr>
                 </table>
-
+            </div>
         </section><!--Seccion-->
 
-        <section>
-            <h2>¿CÓMO PLANIFICAR LA DIETA PARA QUE SEA EQUILIBRADA Y SALUDABLE?</h2>
+        <section class="Planificar-ComidaSaludable">
+            <h2><i class="fas fa-apple-alt"></i> ¿CÓMO PLANIFICAR LA DIETA PARA QUE SEA EQUILIBRADA Y SALUDABLE?</h2>
             <p>Para organizar la dieta debemos confeccionar una agenda o un calendario semanal, donde anotaremos todo lo que debemos realizar para facilitar al máximo el poder llevar a cabo el menú sin excepciones. En el anotaremos la comida y cena del día y todo lo que tenemos que tener preparado para los platos del día siguiente. Los ingredientes y alimentos para el desayuno, media mañana y merienda se contemplarán en la lista de la compra pero siempre podemos añadir alguna nota al respecto.</p>
                 <h3>Ejemplo</h3>
              
@@ -130,8 +139,17 @@
 
 
         </section><!--Seccion-->
-
+    </div>
     </main>
+
+    <footer class="footer ">
+        <div class="barra">
+            <p>ALIMENTACIÓN SALUDABLE 2020 &copy; Todos los derechos reservados</p> 
+            
+        </div>
+
+    </footer>
+
 </body>
 
 </html>
