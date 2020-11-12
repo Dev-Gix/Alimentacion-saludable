@@ -116,6 +116,19 @@ p{
 }
 
 
+/**COMIDAS**/
+.Comidas-list ul{
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.Comidas-list li{
+    list-style: none;
+    width:80%
+}
+
+
 
 
 
