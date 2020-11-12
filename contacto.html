@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <script src="https://kit.fontawesome.com/1a2318b2e3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <title>Alimentación</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="logo centrar-contenido">
+            <a href="/">
+                <img src="img/Logo.jpg" alt="Logo" />
+            </a>
+
+        </div>
+        <!--Logo-->
+
+
+        <div class="barra">
+            <nav class="navegacion">
+                <a href="comidas.html">Comidas</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+        </div>
+
+        <!--Barra-->
+
+    </header>
+    <!--Header-->
+
+    <main class="contacto-main">
+
+        <div class="contenedor">
+            <form action="" class="formulario">
+                <fieldset>
+                    <legend>Información Personal</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" placeholder="Tu Nombre" />
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="Tu E-mail" />
+
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" placeholder="Tu Telefono" />
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje"></textarea>
+                </fieldset>
+
+                <fieldset class="contacto">
+                    <legend>Contacto</legend>
+
+                    <p>Como desea ser contactado:</p>
+                    <div class="forma-contacto">
+                        <label for="telefono">Teléfono</label>
+                        <input type="radio" id="tel" name="contacto" value="telefono" />
+
+                        <label for="correo">Correo</label>
+                        <input type="radio" id="correo" name="contacto" value="correo" />
+                    </div>
+
+                    <p>Si eligió teléfono, elija la fecha y la hora</p>
+
+                    <label for="fecha">Fecha</label>
+                    <input type="date" id="fecha" />
+
+                    <label for="hora">Hora</label>
+                    <input type="time" id="hora" />
+                </fieldset>
+                <input type="submit" value="Enviar" class="boton" />
+            </form>
+        </div>
+
+
+    </main>
+
+    <footer class="footer ">
+        <div class="barra">
+            <p>ALIMENTACIÓN SALUDABLE 2020 &copy; Todos los derechos reservados</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
