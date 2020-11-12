@@ -1,0 +1,124 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;  /**Reset para REMS-62.5% = 10px de 16px**/
+   
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+i{
+    color: #b0d323;
+}
+
+h1{
+   font-size:4rem;
+}
+
+h2{
+    font-size:3rem;
+}
+
+h3{
+    font-size:2rem;
+}
+
+p{
+    font-size:1.5rem;
+    line-height:1.5;
+    
+}
+
+/**GLOBALES**/
+.contenedor{
+
+    max-width: 120rem;
+    width: 95%;
+    margin: 0 auto;
+
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.centrar-contenido{
+    text-align:center; 
+}
+
+/**Header**/
+
+
+.barra{
+    text-align:center;
+    background-color:#b0d323;
+    padding:2rem;
+}
+
+.navegacion a{
+    color:white;
+    padding: 1rem;
+    font-size:2rem;
+    text-decoration:none;
+
+}
+
+.navegacion a:hover{
+    color: grey;
+    transition: .5s ease-in;
+
+}
+
+/**¿QUÉ SE ENTIENDE POR ALIMENTACIÓN SALUDABLE?**/
+.Explicacion-Alimentacion img{
+    float: right;
+    width:50%;
+}
+
+
+/**¿QUÉ CARACTERÍSTICAS DEBE DE TENER UNA ALIMENTACIÓN SALUDABLE?**/
+.info-caracteristicasSaludables img{
+    float: right;
+    width:50%;
+}
+
+.tablas-clasificacion-comida td {
+    border: #b0d323 2px solid;
+    padding:2rem;
+    font-size:1.5rem;
+}
+
+.tablas-clasificacion-comida span {
+    font-weight:bold;
+    font-size:2rem;
+
+}
+
+.tablas-clasificacion-comida  {
+    margin-top: 10rem;
+}
+
+/**¿CÓMO PLANIFICAR LA DIETA PARA QUE SEA EQUILIBRADA Y SALUDABLE?**/
+.Planificar-ComidaSaludable img {
+    width: 80%;
+
+}
+
+
+/**FOOTER**/
+.barra p {
+    color: white;
+    text-align: center;
+    margin:0;
+  
+}
+
+
+
+
+
+
+
+
