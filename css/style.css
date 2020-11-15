@@ -14,10 +14,12 @@ i{
 
 h1{
    font-size:4rem;
+   margin:2rem 0 2rem 0;
 }
 
 h2{
     font-size:3rem;
+    margin:1rem 0 1rem 0;
 }
 
 h3{
@@ -29,27 +31,12 @@ p{
     line-height:1.5;
     
 }
-
-/**GLOBALES**/
-.contenedor{
-
-    max-width: 120rem;
-    width: 95%;
-    margin: 0 auto;
-
+img{
+    max-width: 100%;
 }
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
 
-.centrar-contenido{
-    text-align:center; 
-}
 
 /**Header**/
-
 
 .barra{
     text-align:center;
@@ -71,39 +58,22 @@ p{
 
 }
 
-/**¿QUÉ SE ENTIENDE POR ALIMENTACIÓN SALUDABLE?**/
-.Explicacion-Alimentacion img{
-    float: right;
-    width:50%;
-}
-
-
 /**¿QUÉ CARACTERÍSTICAS DEBE DE TENER UNA ALIMENTACIÓN SALUDABLE?**/
-.info-caracteristicasSaludables img{
-    float: right;
-    width:50%;
-}
 
 .tablas-clasificacion-comida td {
     border: #b0d323 2px solid;
     padding:2rem;
-    font-size:1.5rem;
+    font-size:1.5vw;
 }
 
 .tablas-clasificacion-comida span {
     font-weight:bold;
-    font-size:2rem;
+    font-size:2vw;
 
 }
 
 .tablas-clasificacion-comida  {
-    margin-top: 10rem;
-}
-
-/**¿CÓMO PLANIFICAR LA DIETA PARA QUE SEA EQUILIBRADA Y SALUDABLE?**/
-.Planificar-ComidaSaludable img {
-    width: 80%;
-
+    margin-top: 2rem;
 }
 
 
@@ -115,26 +85,14 @@ p{
   
 }
 
-
-/**COMIDAS**/
-.Comidas-list ul{
-    
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
-}
-.Comidas-list li{
-    list-style: none;
-    width:80%
-}
-
-
 /**Contacto**/
-.contacto-main{
+.contacto{
 background-image:url(/img/comida-saludable-contacto.jpg);
+padding-bottom: 22rem;
 
 }
 .formulario {
+    
     background-color: white;
     -webkit-box-shadow: -9px 7px 16px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: -9px 7px 16px 0px rgba(0, 0, 0, 0.75);
@@ -143,60 +101,17 @@ background-image:url(/img/comida-saludable-contacto.jpg);
     -moz-border-radius: 0px 0px 14px 14px;
     -webkit-border-radius: 0px 0px 14px 14px;
     border: 0px solid #000000;
+    font-size:2rem;
 }
 
-.contacto p {
-    font-size: 1.5rem;
-    color: #4f4f4f;
-    font-family: 'Lato', sans-serif;
+    
+
+.btn{
+    margin:2rem;
+    font-size:1.5rem;
+   
 }
 
-legend {
-    font-size: 2rem;
-    color: #4f4f4f;
-    font-family: 'Lato', sans-serif;
-}
-
-label {
-    display: block;
-    text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-}
-
-input:not([type="submit"]), textarea, select {
-    padding: 1rem;
-    display: block;
-    width: 100%;
-    background-color: #e1e1e1;
-    margin-bottom: 2rem;
-    border: none;
-    border-radius: 1rem;
-    font-family: 'Lato', sans-serif;
-}
-
-select {
-    -webkit-appearance: none;
-    appearance: none;
-}
-
-textarea {
-      height: 20rem;
-}
-
-
-
-input[type="radio"] {
-    width: auto;
-    margin: 0;
-}
-
-
-.forma-contacto {
-    max-width: 60rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 
 
